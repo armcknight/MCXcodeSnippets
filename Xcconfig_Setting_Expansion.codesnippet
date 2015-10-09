@@ -6,11 +6,11 @@
 	<string>mcsetting</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#BUILD_SETTING_NAME#&gt;_Debug = YES
-&lt;#BUILD_SETTING_NAME#&gt;_Release = NO
+	<string>&lt;#BUILD_SETTING_NAME#&gt;_Debug = &lt;#debug value#&gt;
+&lt;#BUILD_SETTING_NAME#&gt;_Release = &lt;#release value#&gt;
 &lt;#BUILD_SETTING_NAME#&gt; = $(&lt;#BUILD_SETTING_NAME#&gt;_$(CONFIGURATION))</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0A20F9D8-35AF-4890-AB6E-A55D57E68D01</string>
